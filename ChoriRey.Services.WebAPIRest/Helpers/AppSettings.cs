@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AdsPublisher.Services.WebAPIRest.Helpers
+namespace ChoriRey.Services.WebAPIRest.Helpers
 {
     public class AppSettings
     {

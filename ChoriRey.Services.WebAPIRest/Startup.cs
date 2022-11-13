@@ -11,18 +11,18 @@ using Microsoft.Extensions.Hosting;
 
 using AutoMapper;
 
-using AdsPublisher.Transversal.Mapper;
-using AdsPublisher.Transversal.Common;
-using AdsPublisher.InfraStructure.Data;
-using AdsPublisher.InfraStructure.Repository;
-using AdsPublisher.InfraStructure.Interface;
-using AdsPublisher.Domain.Interface;
-using AdsPublisher.Domain.Core;
-using AdsPublisher.Application.Interface;
-using AdsPublisher.Application.Main;
+using ChoriRey.Transversal.Mapper;
+using ChoriRey.Transversal.Common;
+using ChoriRey.InfraStructure.Data;
+using ChoriRey.InfraStructure.Repository;
+using ChoriRey.InfraStructure.Interface;
+using ChoriRey.Domain.Interface;
+using ChoriRey.Domain.Core;
+using ChoriRey.Application.Interface;
+using ChoriRey.Application.Main;
 using System.Reflection;
-using AdsPublisher.Transversal.Logging;
-using AdsPublisher.Services.WebAPIRest.Helpers;
+using ChoriRey.Transversal.Logging;
+using ChoriRey.Services.WebAPIRest.Helpers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 
@@ -31,7 +31,7 @@ using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 
-namespace AdsPublisher.Services.WebAPIRest
+namespace ChoriRey.Services.WebAPIRest
 {
     public class Startup
     {
@@ -82,53 +82,9 @@ namespace AdsPublisher.Services.WebAPIRest
             services.AddSingleton<IConnectionFactory, ConnectionFactory>();
 
             //Se usa de Scoped o de ámbito porque necesitamos que se instancie una vez por solicitud
-            services.AddScoped<IClientesApplication, ClientesApplication>();
-            services.AddScoped<IClientesDomain, ClientesDomain>();
-            services.AddScoped<IClientesRepository, ClientesRepository>();
-
-            services.AddScoped<IMicroEmpresasApplication, MicroEmpresasApplication>();
-            services.AddScoped<IMicroEmpresasDomain, MicroEmpresasDomain>();
-            services.AddScoped<IMicroEmpresasRepository, MicroEmpresasRepository>();
-
-            services.AddScoped<IPQRSApplication, PQRSApplication>();
-            services.AddScoped<IPQRSDomain, PQRSDomain>();
-            services.AddScoped<IPQRSRepository, PQRSRepository>();
-
-            services.AddScoped<IParametrosApplication, ParametrosApplication>();
-            services.AddScoped<IParametrosDomain, ParametrosDomain>();
-            services.AddScoped<IParametrosRepository, ParametrosRepository>();
-
-            services.AddScoped<IDescriptionDynamicApplication, DescriptionDynamicApplication>();
-            services.AddScoped<IDescriptionDynamicDomain, DescriptionDynamicDomain>();
-            services.AddScoped<IDescriptionDynamicRepository, DescriptionDynamicRepository>();
-
-            services.AddScoped<IFacturasApplication, FacturasApplication>();
-            services.AddScoped<IFacturasDomain, FacturasDomain>();
-            services.AddScoped<IFacturasRepository, FacturasRepository>();
-
-            services.AddScoped<IPlanesApplication, PlanesApplication>();
-            services.AddScoped<IPlanesDomain, PlanesDomain>();
-            services.AddScoped<IPlanesRepository, PlanesRepository>();
-
-            services.AddScoped<IHistorialPagosApplication, HistorialPagosApplication>();
-            services.AddScoped<IHistorialPagosDomain, HistorialPagosDomain>();
-            services.AddScoped<IHistorialPagosRepository, HistorialPagosRepository>();
-
-            services.AddScoped<IHistorialRegistroApplication, HistorialRegistroApplication>();
-            services.AddScoped<IHistorialRegistroDomain, HistorialRegistroDomain>();
-            services.AddScoped<IHistorialRegistroRepository, HistorialRegistroRepository>();            
-
-            services.AddScoped<ICategoriaApplication, CategoriaApplication>();
-            services.AddScoped<ICategoriaDomain, CategoriaDomain>();
-            services.AddScoped<ICategoriaRepository, CategoriaRepository>();
-
-            services.AddScoped<ISubCategoriasApplication, SubCategoriasApplication>();
-            services.AddScoped<ISubCategoriasDomain, SubCategoriasDomain>();
-            services.AddScoped<ISubCategoriasRepository, SubCategoriasRepository>();
-
-            services.AddScoped<ICategoriasPorMicroEmpresasApplication, CategoriasPorMicroEmpresasApplication>();
-            services.AddScoped<ICategoriasPorMicroEmpresasDomain, CategoriasPorMicroEmpresasDomain>();
-            services.AddScoped<ICategoriasPorMicroEmpresasRepository, CategoriasPorMicroEmpresasRepository>();
+            services.AddScoped<IUsuariosApplication, UsuariosApplication>();
+            services.AddScoped<IUsuariosDomain, UsuariosDomain>();
+            services.AddScoped<IUsuariosRepository, UsuariosRepository>();            
 
             services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
 

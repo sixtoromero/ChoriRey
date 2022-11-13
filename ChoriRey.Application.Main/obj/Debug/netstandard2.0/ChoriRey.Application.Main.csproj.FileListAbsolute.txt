@@ -1,3 +1,8 @@
+F:\sena\ChoriRey\ChoriRey.Application.Main\obj\Debug\netstandard2.0\ChoriRey.Application.Main.csproj.AssemblyReference.cache
+F:\sena\ChoriRey\ChoriRey.Application.Main\obj\Debug\netstandard2.0\ChoriRey.Application.Main.GeneratedMSBuildEditorConfig.editorconfig
+F:\sena\ChoriRey\ChoriRey.Application.Main\obj\Debug\netstandard2.0\ChoriRey.Application.Main.AssemblyInfoInputs.cache
+F:\sena\ChoriRey\ChoriRey.Application.Main\obj\Debug\netstandard2.0\ChoriRey.Application.Main.AssemblyInfo.cs
+F:\sena\ChoriRey\ChoriRey.Application.Main\obj\Debug\netstandard2.0\ChoriRey.Application.Main.csproj.CoreCompileInputs.cache
 F:\sena\ChoriRey\ChoriRey.Application.Main\bin\Debug\netstandard2.0\ChoriRey.Application.Main.deps.json
 F:\sena\ChoriRey\ChoriRey.Application.Main\bin\Debug\netstandard2.0\ChoriRey.Application.Main.dll
 F:\sena\ChoriRey\ChoriRey.Application.Main\bin\Debug\netstandard2.0\ChoriRey.Application.Main.pdb
@@ -11,11 +16,6 @@ F:\sena\ChoriRey\ChoriRey.Application.Main\bin\Debug\netstandard2.0\ChoriRey.Dom
 F:\sena\ChoriRey\ChoriRey.Application.Main\bin\Debug\netstandard2.0\ChoriRey.Application.DTO.pdb
 F:\sena\ChoriRey\ChoriRey.Application.Main\bin\Debug\netstandard2.0\ChoriRey.Domain.Entity.pdb
 F:\sena\ChoriRey\ChoriRey.Application.Main\bin\Debug\netstandard2.0\ChoriRey.Transversal.Common.pdb
-F:\sena\ChoriRey\ChoriRey.Application.Main\obj\Debug\netstandard2.0\ChoriRey.Application.Main.csproj.AssemblyReference.cache
-F:\sena\ChoriRey\ChoriRey.Application.Main\obj\Debug\netstandard2.0\ChoriRey.Application.Main.GeneratedMSBuildEditorConfig.editorconfig
-F:\sena\ChoriRey\ChoriRey.Application.Main\obj\Debug\netstandard2.0\ChoriRey.Application.Main.AssemblyInfoInputs.cache
-F:\sena\ChoriRey\ChoriRey.Application.Main\obj\Debug\netstandard2.0\ChoriRey.Application.Main.AssemblyInfo.cs
-F:\sena\ChoriRey\ChoriRey.Application.Main\obj\Debug\netstandard2.0\ChoriRey.Application.Main.csproj.CoreCompileInputs.cache
 F:\sena\ChoriRey\ChoriRey.Application.Main\obj\Debug\netstandard2.0\ChoriRey.Application.Main.csproj.CopyComplete
 F:\sena\ChoriRey\ChoriRey.Application.Main\obj\Debug\netstandard2.0\ChoriRey.Application.Main.dll
 F:\sena\ChoriRey\ChoriRey.Application.Main\obj\Debug\netstandard2.0\ChoriRey.Application.Main.pdb

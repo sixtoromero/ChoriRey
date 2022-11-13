@@ -1,10 +1,10 @@
-﻿using AdsPublisher.Transversal.Common;
+﻿using ChoriRey.Transversal.Common;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace AdsPublisher.Transversal.Logging
+namespace ChoriRey.Transversal.Logging
 {
     public class LoggerAdapter<T> : IAppLogger<T>
     {

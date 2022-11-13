@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.Mail;
 using System.Text;
 
-namespace AdsPublisher.Transversal.Utils
+namespace ChoriRey.Transversal.Utils
 {
     public abstract class MailServer
     {

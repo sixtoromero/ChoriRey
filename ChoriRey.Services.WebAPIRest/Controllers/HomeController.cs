@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using AdsPublisher.Services.WebAPIRest.Models;
+using ChoriRey.Services.WebAPIRest.Models;
 
-namespace AdsPublisher.Services.WebAPIRest.Controllers
+namespace ChoriRey.Services.WebAPIRest.Controllers
 {
     public class HomeController : Controller
     {

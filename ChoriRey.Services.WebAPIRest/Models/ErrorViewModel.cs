@@ -1,6 +1,6 @@
 using System;
 
-namespace AdsPublisher.Services.WebAPIRest.Models
+namespace ChoriRey.Services.WebAPIRest.Models
 {
     public class ErrorViewModel
     {

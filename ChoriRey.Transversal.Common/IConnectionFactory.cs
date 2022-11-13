@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Data;
 
-namespace AdsPublisher.Transversal.Common
+namespace ChoriRey.Transversal.Common
 {
     public interface IConnectionFactory
     {

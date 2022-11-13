@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace AdsPublisher.Transversal.Common
+namespace ChoriRey.Transversal.Common
 {
     public static class FileHelper
     {

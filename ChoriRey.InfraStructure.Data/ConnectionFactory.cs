@@ -1,4 +1,4 @@
-﻿using AdsPublisher.Transversal.Common;
+﻿using ChoriRey.Transversal.Common;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Text;
 
-namespace AdsPublisher.InfraStructure.Data
+namespace ChoriRey.InfraStructure.Data
 {
     public class ConnectionFactory : IConnectionFactory
     {
@@ -30,7 +30,7 @@ namespace AdsPublisher.InfraStructure.Data
             {
                 var sqlConnection = new SqlConnection();
                 if (sqlConnection == null) return null;
-                sqlConnection.ConnectionString = _configuration.GetConnectionString("AdsPublisherConnection");
+                sqlConnection.ConnectionString = _configuration.GetConnectionString("ChoriReyConnection");
                 sqlConnection.Open();
                 return sqlConnection;
             }

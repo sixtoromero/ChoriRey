@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace AdsPublisher.Transversal.Utils
+namespace ChoriRey.Transversal.Utils
 {
     public class FileUploadAPI
     {
