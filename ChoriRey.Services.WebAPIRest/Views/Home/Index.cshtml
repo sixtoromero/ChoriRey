@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Bienvenido a Ads Publisher";
+}
+
+<div class="d-flex justify-content-center" id="loading">
+    <div class="spinner-border" role="status">
+        <span class="sr-only">cargando...</span>
+    </div>
+</div>
+<div class="text-center" id="loadingtxt">
+    <h1 class="display-4">Activando tu cuenta</h1>    
+    <p>Por favor espere un momento.</p>
+    @*<button onclick="SetActivation()">Activar cuenta</button>*@
+</div>
+<div class="text-center" id="welcome">
+    <h1 class="display-4">Bienvenido</h1>    
+    <p>Tu cuenta ha sido activada correctamente, gracias por confiar en nosotros</p>
+    <strong>Puede cerrar esta página</strong>
+</div>
+
+<div class="text-center" id="error">
+    <h1 class="display-4"><label style="color: red">Error</label></h1>
+    <p>Ha ocurrido un error al tratar de activar tu cuenta por favor comunicate con el administrador</p>
+    <strong>Info: administrador@adspublisher.com</strong>
+</div>

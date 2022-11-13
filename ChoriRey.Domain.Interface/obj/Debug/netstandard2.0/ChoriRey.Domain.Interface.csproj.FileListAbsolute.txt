@@ -1,0 +1,13 @@
+F:\sena\ChoriRey\ChoriRey.Domain.Interface\bin\Debug\netstandard2.0\ChoriRey.Domain.Interface.deps.json
+F:\sena\ChoriRey\ChoriRey.Domain.Interface\bin\Debug\netstandard2.0\ChoriRey.Domain.Interface.dll
+F:\sena\ChoriRey\ChoriRey.Domain.Interface\bin\Debug\netstandard2.0\ChoriRey.Domain.Interface.pdb
+F:\sena\ChoriRey\ChoriRey.Domain.Interface\bin\Debug\netstandard2.0\ChoriRey.Domain.Entity.dll
+F:\sena\ChoriRey\ChoriRey.Domain.Interface\bin\Debug\netstandard2.0\ChoriRey.Domain.Entity.pdb
+F:\sena\ChoriRey\ChoriRey.Domain.Interface\obj\Debug\netstandard2.0\ChoriRey.Domain.Interface.csproj.AssemblyReference.cache
+F:\sena\ChoriRey\ChoriRey.Domain.Interface\obj\Debug\netstandard2.0\ChoriRey.Domain.Interface.GeneratedMSBuildEditorConfig.editorconfig
+F:\sena\ChoriRey\ChoriRey.Domain.Interface\obj\Debug\netstandard2.0\ChoriRey.Domain.Interface.AssemblyInfoInputs.cache
+F:\sena\ChoriRey\ChoriRey.Domain.Interface\obj\Debug\netstandard2.0\ChoriRey.Domain.Interface.AssemblyInfo.cs
+F:\sena\ChoriRey\ChoriRey.Domain.Interface\obj\Debug\netstandard2.0\ChoriRey.Domain.Interface.csproj.CoreCompileInputs.cache
+F:\sena\ChoriRey\ChoriRey.Domain.Interface\obj\Debug\netstandard2.0\ChoriRey.Domain.Interface.csproj.CopyComplete
+F:\sena\ChoriRey\ChoriRey.Domain.Interface\obj\Debug\netstandard2.0\ChoriRey.Domain.Interface.dll
+F:\sena\ChoriRey\ChoriRey.Domain.Interface\obj\Debug\netstandard2.0\ChoriRey.Domain.Interface.pdb

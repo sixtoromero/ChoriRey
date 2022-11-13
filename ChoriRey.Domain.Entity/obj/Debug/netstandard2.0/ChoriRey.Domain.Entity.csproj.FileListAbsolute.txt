@@ -1,0 +1,10 @@
+F:\sena\ChoriRey\ChoriRey.Domain.Entity\bin\Debug\netstandard2.0\ChoriRey.Domain.Entity.deps.json
+F:\sena\ChoriRey\ChoriRey.Domain.Entity\bin\Debug\netstandard2.0\ChoriRey.Domain.Entity.dll
+F:\sena\ChoriRey\ChoriRey.Domain.Entity\bin\Debug\netstandard2.0\ChoriRey.Domain.Entity.pdb
+F:\sena\ChoriRey\ChoriRey.Domain.Entity\obj\Debug\netstandard2.0\ChoriRey.Domain.Entity.csproj.AssemblyReference.cache
+F:\sena\ChoriRey\ChoriRey.Domain.Entity\obj\Debug\netstandard2.0\ChoriRey.Domain.Entity.GeneratedMSBuildEditorConfig.editorconfig
+F:\sena\ChoriRey\ChoriRey.Domain.Entity\obj\Debug\netstandard2.0\ChoriRey.Domain.Entity.AssemblyInfoInputs.cache
+F:\sena\ChoriRey\ChoriRey.Domain.Entity\obj\Debug\netstandard2.0\ChoriRey.Domain.Entity.AssemblyInfo.cs
+F:\sena\ChoriRey\ChoriRey.Domain.Entity\obj\Debug\netstandard2.0\ChoriRey.Domain.Entity.csproj.CoreCompileInputs.cache
+F:\sena\ChoriRey\ChoriRey.Domain.Entity\obj\Debug\netstandard2.0\ChoriRey.Domain.Entity.dll
+F:\sena\ChoriRey\ChoriRey.Domain.Entity\obj\Debug\netstandard2.0\ChoriRey.Domain.Entity.pdb

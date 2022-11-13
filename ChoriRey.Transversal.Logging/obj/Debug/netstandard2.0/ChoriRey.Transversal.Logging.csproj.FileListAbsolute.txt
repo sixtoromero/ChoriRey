@@ -1,0 +1,13 @@
+F:\sena\ChoriRey\ChoriRey.Transversal.Logging\bin\Debug\netstandard2.0\ChoriRey.Transversal.Logging.deps.json
+F:\sena\ChoriRey\ChoriRey.Transversal.Logging\bin\Debug\netstandard2.0\ChoriRey.Transversal.Logging.dll
+F:\sena\ChoriRey\ChoriRey.Transversal.Logging\bin\Debug\netstandard2.0\ChoriRey.Transversal.Logging.pdb
+F:\sena\ChoriRey\ChoriRey.Transversal.Logging\bin\Debug\netstandard2.0\ChoriRey.Transversal.Common.dll
+F:\sena\ChoriRey\ChoriRey.Transversal.Logging\bin\Debug\netstandard2.0\ChoriRey.Transversal.Common.pdb
+F:\sena\ChoriRey\ChoriRey.Transversal.Logging\obj\Debug\netstandard2.0\ChoriRey.Transversal.Logging.csproj.AssemblyReference.cache
+F:\sena\ChoriRey\ChoriRey.Transversal.Logging\obj\Debug\netstandard2.0\ChoriRey.Transversal.Logging.GeneratedMSBuildEditorConfig.editorconfig
+F:\sena\ChoriRey\ChoriRey.Transversal.Logging\obj\Debug\netstandard2.0\ChoriRey.Transversal.Logging.AssemblyInfoInputs.cache
+F:\sena\ChoriRey\ChoriRey.Transversal.Logging\obj\Debug\netstandard2.0\ChoriRey.Transversal.Logging.AssemblyInfo.cs
+F:\sena\ChoriRey\ChoriRey.Transversal.Logging\obj\Debug\netstandard2.0\ChoriRey.Transversal.Logging.csproj.CoreCompileInputs.cache
+F:\sena\ChoriRey\ChoriRey.Transversal.Logging\obj\Debug\netstandard2.0\ChoriRey.Transversal.Logging.csproj.CopyComplete
+F:\sena\ChoriRey\ChoriRey.Transversal.Logging\obj\Debug\netstandard2.0\ChoriRey.Transversal.Logging.dll
+F:\sena\ChoriRey\ChoriRey.Transversal.Logging\obj\Debug\netstandard2.0\ChoriRey.Transversal.Logging.pdb

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChoriRey.Domain.Entity\ChoriRey.Domain.Entity.csproj" />
+    <ProjectReference Include="..\ChoriRey.Domain.Interface\ChoriRey.Domain.Interface.csproj" />
+    <ProjectReference Include="..\ChoriRey.InfraStructure.Interface\ChoriRey.InfraStructure.Interface.csproj" />
+    <ProjectReference Include="..\ChoriRey.Transversal.Utils\ChoriRey.Transversal.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

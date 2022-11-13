@@ -1,0 +1,13 @@
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Data\bin\Debug\netstandard2.0\ChoriRey.InfraStructure.Data.deps.json
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Data\bin\Debug\netstandard2.0\ChoriRey.InfraStructure.Data.dll
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Data\bin\Debug\netstandard2.0\ChoriRey.InfraStructure.Data.pdb
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Data\bin\Debug\netstandard2.0\ChoriRey.Transversal.Common.dll
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Data\bin\Debug\netstandard2.0\ChoriRey.Transversal.Common.pdb
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Data\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Data.csproj.AssemblyReference.cache
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Data\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Data\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Data.AssemblyInfoInputs.cache
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Data\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Data.AssemblyInfo.cs
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Data\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Data.csproj.CoreCompileInputs.cache
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Data\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Data.csproj.CopyComplete
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Data\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Data.dll
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Data\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Data.pdb

@@ -1,0 +1,17 @@
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\bin\Debug\netstandard2.0\ChoriRey.InfraStructure.Repository.deps.json
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\bin\Debug\netstandard2.0\ChoriRey.InfraStructure.Repository.dll
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\bin\Debug\netstandard2.0\ChoriRey.InfraStructure.Repository.pdb
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\bin\Debug\netstandard2.0\ChoriRey.Domain.Entity.dll
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\bin\Debug\netstandard2.0\ChoriRey.InfraStructure.Interface.dll
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\bin\Debug\netstandard2.0\ChoriRey.Transversal.Common.dll
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\bin\Debug\netstandard2.0\ChoriRey.Domain.Entity.pdb
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\bin\Debug\netstandard2.0\ChoriRey.InfraStructure.Interface.pdb
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\bin\Debug\netstandard2.0\ChoriRey.Transversal.Common.pdb
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Repository.csproj.AssemblyReference.cache
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Repository.GeneratedMSBuildEditorConfig.editorconfig
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Repository.AssemblyInfoInputs.cache
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Repository.AssemblyInfo.cs
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Repository.csproj.CoreCompileInputs.cache
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Repository.csproj.CopyComplete
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Repository.dll
+F:\sena\ChoriRey\ChoriRey.InfraStructure.Repository\obj\Debug\netstandard2.0\ChoriRey.InfraStructure.Repository.pdb

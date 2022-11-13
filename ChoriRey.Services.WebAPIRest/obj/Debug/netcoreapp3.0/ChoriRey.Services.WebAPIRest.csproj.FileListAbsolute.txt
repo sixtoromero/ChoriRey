@@ -1,0 +1,8 @@
+F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\obj\Debug\netcoreapp3.0\ChoriRey.Services.WebAPIRest.csproj.AssemblyReference.cache
+F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\obj\Debug\netcoreapp3.0\ChoriRey.Services.WebAPIRest.GeneratedMSBuildEditorConfig.editorconfig
+F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\obj\Debug\netcoreapp3.0\ChoriRey.Services.WebAPIRest.AssemblyInfoInputs.cache
+F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\obj\Debug\netcoreapp3.0\ChoriRey.Services.WebAPIRest.AssemblyInfo.cs
+F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\obj\Debug\netcoreapp3.0\ChoriRey.Services.WebAPIRest.csproj.CoreCompileInputs.cache
+F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\obj\Debug\netcoreapp3.0\ChoriRey.Services.WebAPIRest.MvcApplicationPartsAssemblyInfo.cache
+F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\obj\Debug\netcoreapp3.0\ChoriRey.Services.WebAPIRest.RazorAssemblyInfo.cache
+F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\obj\Debug\netcoreapp3.0\ChoriRey.Services.WebAPIRest.RazorAssemblyInfo.cs

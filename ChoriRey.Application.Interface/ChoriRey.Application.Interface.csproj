@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChoriRey.Application.DTO\ChoriRey.Application.DTO.csproj" />
+    <ProjectReference Include="..\ChoriRey.Transversal.Common\ChoriRey.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

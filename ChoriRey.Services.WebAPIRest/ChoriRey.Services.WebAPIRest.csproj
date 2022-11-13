@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Upload\" />
+    <Folder Include="wwwroot\image\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChoriRey.Application.DTO\ChoriRey.Application.DTO.csproj" />
+    <ProjectReference Include="..\ChoriRey.Application.Interface\ChoriRey.Application.Interface.csproj" />
+    <ProjectReference Include="..\ChoriRey.Application.Main\ChoriRey.Application.Main.csproj" />
+    <ProjectReference Include="..\ChoriRey.Domain.Core\ChoriRey.Domain.Core.csproj" />
+    <ProjectReference Include="..\ChoriRey.Domain.Entity\ChoriRey.Domain.Entity.csproj" />
+    <ProjectReference Include="..\ChoriRey.Domain.Interface\ChoriRey.Domain.Interface.csproj" />
+    <ProjectReference Include="..\ChoriRey.InfraStructure.Data\ChoriRey.InfraStructure.Data.csproj" />
+    <ProjectReference Include="..\ChoriRey.InfraStructure.Interface\ChoriRey.InfraStructure.Interface.csproj" />
+    <ProjectReference Include="..\ChoriRey.InfraStructure.Repository\ChoriRey.InfraStructure.Repository.csproj" />
+    <ProjectReference Include="..\ChoriRey.Transversal.Common\ChoriRey.Transversal.Common.csproj" />
+    <ProjectReference Include="..\ChoriRey.Transversal.Logging\ChoriRey.Transversal.Logging.csproj" />
+    <ProjectReference Include="..\ChoriRey.Transversal.Mapper\ChoriRey.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

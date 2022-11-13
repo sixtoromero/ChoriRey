@@ -1,0 +1,15 @@
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\bin\Debug\netstandard2.0\ChoriRey.Transversal.Mapper.deps.json
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\bin\Debug\netstandard2.0\ChoriRey.Transversal.Mapper.dll
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\bin\Debug\netstandard2.0\ChoriRey.Transversal.Mapper.pdb
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\bin\Debug\netstandard2.0\ChoriRey.Application.DTO.dll
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\bin\Debug\netstandard2.0\ChoriRey.Domain.Entity.dll
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\bin\Debug\netstandard2.0\ChoriRey.Application.DTO.pdb
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\bin\Debug\netstandard2.0\ChoriRey.Domain.Entity.pdb
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\obj\Debug\netstandard2.0\ChoriRey.Transversal.Mapper.csproj.AssemblyReference.cache
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\obj\Debug\netstandard2.0\ChoriRey.Transversal.Mapper.GeneratedMSBuildEditorConfig.editorconfig
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\obj\Debug\netstandard2.0\ChoriRey.Transversal.Mapper.AssemblyInfoInputs.cache
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\obj\Debug\netstandard2.0\ChoriRey.Transversal.Mapper.AssemblyInfo.cs
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\obj\Debug\netstandard2.0\ChoriRey.Transversal.Mapper.csproj.CoreCompileInputs.cache
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\obj\Debug\netstandard2.0\ChoriRey.Transversal.Mapper.csproj.CopyComplete
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\obj\Debug\netstandard2.0\ChoriRey.Transversal.Mapper.dll
+F:\sena\ChoriRey\ChoriRey.Transversal.Mapper\obj\Debug\netstandard2.0\ChoriRey.Transversal.Mapper.pdb

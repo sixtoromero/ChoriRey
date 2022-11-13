@@ -1,0 +1,10 @@
+F:\sena\ChoriRey\ChoriRey.Application.DTO\bin\Debug\netstandard2.0\ChoriRey.Application.DTO.deps.json
+F:\sena\ChoriRey\ChoriRey.Application.DTO\bin\Debug\netstandard2.0\ChoriRey.Application.DTO.dll
+F:\sena\ChoriRey\ChoriRey.Application.DTO\bin\Debug\netstandard2.0\ChoriRey.Application.DTO.pdb
+F:\sena\ChoriRey\ChoriRey.Application.DTO\obj\Debug\netstandard2.0\ChoriRey.Application.DTO.csproj.AssemblyReference.cache
+F:\sena\ChoriRey\ChoriRey.Application.DTO\obj\Debug\netstandard2.0\ChoriRey.Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+F:\sena\ChoriRey\ChoriRey.Application.DTO\obj\Debug\netstandard2.0\ChoriRey.Application.DTO.AssemblyInfoInputs.cache
+F:\sena\ChoriRey\ChoriRey.Application.DTO\obj\Debug\netstandard2.0\ChoriRey.Application.DTO.AssemblyInfo.cs
+F:\sena\ChoriRey\ChoriRey.Application.DTO\obj\Debug\netstandard2.0\ChoriRey.Application.DTO.csproj.CoreCompileInputs.cache
+F:\sena\ChoriRey\ChoriRey.Application.DTO\obj\Debug\netstandard2.0\ChoriRey.Application.DTO.dll
+F:\sena\ChoriRey\ChoriRey.Application.DTO\obj\Debug\netstandard2.0\ChoriRey.Application.DTO.pdb

@@ -1,0 +1,10 @@
+F:\sena\ChoriRey\ChoriRey.Transversal.Utils\bin\Debug\netstandard2.0\ChoriRey.Transversal.Utils.deps.json
+F:\sena\ChoriRey\ChoriRey.Transversal.Utils\bin\Debug\netstandard2.0\ChoriRey.Transversal.Utils.dll
+F:\sena\ChoriRey\ChoriRey.Transversal.Utils\bin\Debug\netstandard2.0\ChoriRey.Transversal.Utils.pdb
+F:\sena\ChoriRey\ChoriRey.Transversal.Utils\obj\Debug\netstandard2.0\ChoriRey.Transversal.Utils.csproj.AssemblyReference.cache
+F:\sena\ChoriRey\ChoriRey.Transversal.Utils\obj\Debug\netstandard2.0\ChoriRey.Transversal.Utils.GeneratedMSBuildEditorConfig.editorconfig
+F:\sena\ChoriRey\ChoriRey.Transversal.Utils\obj\Debug\netstandard2.0\ChoriRey.Transversal.Utils.AssemblyInfoInputs.cache
+F:\sena\ChoriRey\ChoriRey.Transversal.Utils\obj\Debug\netstandard2.0\ChoriRey.Transversal.Utils.AssemblyInfo.cs
+F:\sena\ChoriRey\ChoriRey.Transversal.Utils\obj\Debug\netstandard2.0\ChoriRey.Transversal.Utils.csproj.CoreCompileInputs.cache
+F:\sena\ChoriRey\ChoriRey.Transversal.Utils\obj\Debug\netstandard2.0\ChoriRey.Transversal.Utils.dll
+F:\sena\ChoriRey\ChoriRey.Transversal.Utils\obj\Debug\netstandard2.0\ChoriRey.Transversal.Utils.pdb
