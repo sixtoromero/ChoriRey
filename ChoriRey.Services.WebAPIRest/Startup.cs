@@ -98,7 +98,10 @@ namespace ChoriRey.Services.WebAPIRest
             services.AddScoped<IProductosApplication, ProductosApplication>();
             services.AddScoped<IProductosDomain, ProductosDomain>();
             services.AddScoped<IProductosRepository, ProductosRepository>();
-
+            //Clientes
+            services.AddScoped<IClientesApplication, ClientesApplication>();
+            services.AddScoped<IClientesDomain, ClientesDomain>();
+            services.AddScoped<IClientesRepository, ClientesRepository>();
             #endregion
             services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
 
