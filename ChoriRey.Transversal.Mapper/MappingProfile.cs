@@ -14,6 +14,7 @@ namespace ChoriRey.Transversal.Mapper
             CreateMap<Usuarios, UsuariosDTO>().ReverseMap();
             CreateMap<Productos, ProductosDTO>().ReverseMap();
             CreateMap<Clientes, ClientesDTO>().ReverseMap();
+            CreateMap<EncabezadoPedido, EncabezadoPedidoDTO>().ReverseMap(); 
         }
     }
 }

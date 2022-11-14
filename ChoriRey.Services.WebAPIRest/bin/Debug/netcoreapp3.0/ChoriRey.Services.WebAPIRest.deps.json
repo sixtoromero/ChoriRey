@@ -2421,7 +2421,8 @@
           "ChoriRey.Domain.Entity": "1.0.0",
           "ChoriRey.InfraStructure.Interface": "1.0.0",
           "ChoriRey.Transversal.Common": "1.0.0",
-          "Dapper": "2.0.30"
+          "Dapper": "2.0.30",
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "ChoriRey.InfraStructure.Repository.dll": {}
