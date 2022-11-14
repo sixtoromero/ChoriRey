@@ -172,3 +172,8 @@ F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\obj\Debug\netcoreapp3.0\ChoriRey.S
 F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\obj\Debug\netcoreapp3.0\ChoriRey.Services.WebAPIRest.dll
 F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\obj\Debug\netcoreapp3.0\ChoriRey.Services.WebAPIRest.pdb
 F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\obj\Debug\netcoreapp3.0\ChoriRey.Services.WebAPIRest.genruntimeconfig.cache
+F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\bin\Debug\netcoreapp3.0\Microsoft.OpenApi.dll
+F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\sena\ChoriRey\ChoriRey.Services.WebAPIRest\obj\Debug\netcoreapp3.0\ChoriRey.Services.WebAPIRest.MvcApplicationPartsAssemblyInfo.cs

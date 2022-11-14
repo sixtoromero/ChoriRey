@@ -26,6 +26,7 @@ namespace ChoriRey.InfraStructure.Repository
                 var parameters = new DynamicParameters();                
                 parameters.Add("Usuario", model.Usuario);
                 parameters.Add("Clave", model.Clave);
+                parameters.Add("Nombres", model.Nombres);
                 parameters.Add("Apellidos", model.Apellidos);
                 parameters.Add("Correo", model.Correo);
                 parameters.Add("Direccion", model.Direccion);
@@ -46,6 +47,7 @@ namespace ChoriRey.InfraStructure.Repository
                 parameters.Add("IdUsuario", model.IdUsuario);
                 parameters.Add("Usuario", model.Usuario);
                 parameters.Add("Clave", model.Clave);
+                parameters.Add("Nombres", model.Nombres);
                 parameters.Add("Apellidos", model.Apellidos);
                 parameters.Add("Correo", model.Correo);
                 parameters.Add("Direccion", model.Direccion);
@@ -79,7 +81,7 @@ namespace ChoriRey.InfraStructure.Repository
                 var query = "UspgetUsuariosByID";
                 var parameters = new DynamicParameters();
 
-                parameters.Add("IDCliente", ID);
+                parameters.Add("IdUsuario", ID);
 
                 var result = await connection.QuerySingleAsync<Usuarios>(query, param: parameters, commandType: CommandType.StoredProcedure);
                 return result;
@@ -90,7 +92,7 @@ namespace ChoriRey.InfraStructure.Repository
         {
             using (var connection = _connectionFactory.GetConnection)
             {
-                var query = "UspgetUsuarios";                
+                var query = "UspgetUsuarios";
 
                 var result = await connection.QueryAsync<Usuarios>(query, commandType: CommandType.StoredProcedure);
                 return result;

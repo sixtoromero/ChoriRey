@@ -30,6 +30,8 @@ using Newtonsoft.Json.Serialization;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
+using Microsoft.OpenApi.Models;
+using System.IO;
 
 namespace ChoriRey.Services.WebAPIRest
 {
@@ -59,6 +61,11 @@ namespace ChoriRey.Services.WebAPIRest
                            .AllowAnyMethod()
                            .AllowAnyOrigin()
                 );
+            });
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API ChoriRey", Version = "v1" });
             });
 
             //Devolver el JSON tal cual como está el modelo
@@ -148,6 +155,12 @@ namespace ChoriRey.Services.WebAPIRest
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API ChoriRey V1");
+            });            
 
             app.UseCors("AllowSpecificOrigin");
             

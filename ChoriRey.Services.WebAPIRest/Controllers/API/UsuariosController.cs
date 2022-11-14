@@ -18,7 +18,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace ChoriRey.Services.WebAPIRest.Controllers.API
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class UsuariosController : Controller
@@ -58,6 +58,36 @@ namespace ChoriRey.Services.WebAPIRest.Controllers.API
             catch (Exception ex)
             {
                 response.Data = null;
+                response.IsSuccess = false;
+                response.Message = ex.Message;
+
+                return BadRequest(response);
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> InsertAsync([FromBody] UsuariosDTO modelDto)
+        {
+            Response<bool> response = new Response<bool>();
+
+            try
+            {
+                if (modelDto == null)
+                    return BadRequest();
+
+                response = await _Application.InsertAsync(modelDto);
+                if (response.IsSuccess)
+                {
+                    return Ok(response);
+                }
+                else
+                {
+                    return BadRequest(response);
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Data = false;
                 response.IsSuccess = false;
                 response.Message = ex.Message;
 
