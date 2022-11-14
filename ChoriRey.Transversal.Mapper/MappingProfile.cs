@@ -12,6 +12,7 @@ namespace ChoriRey.Transversal.Mapper
         public MappingProfile()
         {
             CreateMap<Usuarios, UsuariosDTO>().ReverseMap();
+            CreateMap<Productos, ProductosDTO>().ReverseMap();
         }
     }
 }

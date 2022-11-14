@@ -89,10 +89,17 @@ namespace ChoriRey.Services.WebAPIRest
             services.AddSingleton<IConnectionFactory, ConnectionFactory>();
 
             //Se usa de Scoped o de ámbito porque necesitamos que se instancie una vez por solicitud
+            #region Add Scoped al ámbito de la solución
+            //Usuarios
             services.AddScoped<IUsuariosApplication, UsuariosApplication>();
             services.AddScoped<IUsuariosDomain, UsuariosDomain>();
-            services.AddScoped<IUsuariosRepository, UsuariosRepository>();            
+            services.AddScoped<IUsuariosRepository, UsuariosRepository>();
+            //Productos
+            services.AddScoped<IProductosApplication, ProductosApplication>();
+            services.AddScoped<IProductosDomain, ProductosDomain>();
+            services.AddScoped<IProductosRepository, ProductosRepository>();
 
+            #endregion
             services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
 
             var key = Encoding.ASCII.GetBytes(appSettings.Secret);

@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChoriRey.Domain.Interface
 {
-    public interface IUsuariosDomain
+    public interface IUsuariosDomain : IDomain<Usuarios>
     {
-        Task<bool> InsertAsync(Usuarios model);
-        Task<bool> UpdateAsync(Usuarios model);
-        Task<bool> DeleteAsync(int ID);
-        Task<Usuarios> GetAsync(int ID);
-        Task<IEnumerable<Usuarios>> GetAllAsync();
     }
 }

@@ -22,12 +22,7 @@ namespace ChoriRey.Services.WebAPIRest.Controllers.API
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class UsuariosController : Controller
-    {
-        public IActionResult Index()
-        {
-            return View();
-        }
-
+    {        
         private readonly IUsuariosApplication _Application;
         private readonly AppSettings _appSettings;
 
@@ -95,7 +90,7 @@ namespace ChoriRey.Services.WebAPIRest.Controllers.API
             }
         }
 
-        [HttpPost]
+        [HttpPut]
         public async Task<IActionResult> UpdateAsync([FromBody] UsuariosDTO modelDto)
         {
             Response<bool> response = new Response<bool>();
@@ -106,6 +101,33 @@ namespace ChoriRey.Services.WebAPIRest.Controllers.API
                     return BadRequest();
 
                 response = await _Application.UpdateAsync(modelDto);
+                if (response.IsSuccess)
+                {
+                    return Ok(response);
+                }
+                else
+                {
+                    return BadRequest(response);
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Data = false;
+                response.IsSuccess = false;
+                response.Message = ex.Message;
+
+                return BadRequest(response);
+            }
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DelAsync(int ID)
+        {
+            Response<bool> response = new Response<bool>();
+
+            try
+            {
+                response = await _Application.DeleteAsync(ID);
                 if (response.IsSuccess)
                 {
                     return Ok(response);

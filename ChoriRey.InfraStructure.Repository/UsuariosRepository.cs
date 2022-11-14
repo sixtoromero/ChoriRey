@@ -37,6 +37,7 @@ namespace ChoriRey.InfraStructure.Repository
                 return result == "success" ? true : false;
             }
         }
+
         public async Task<bool> UpdateAsync(Usuarios model)
         {
             using (var connection = _connectionFactory.GetConnection)

@@ -7,12 +7,7 @@ using System.Threading.Tasks;
 
 namespace ChoriRey.Application.Interface
 {
-    public interface IUsuariosApplication
+    public interface IUsuariosApplication : IApplication<UsuariosDTO>
     {
-        Task<Response<bool>> InsertAsync(UsuariosDTO modelDto);
-        Task<Response<bool>> UpdateAsync(UsuariosDTO modelDto);
-        Task<Response<bool>> DeleteAsync(int ID);
-        Task<Response<UsuariosDTO>> GetAsync(int ID);
-        Task<Response<IEnumerable<UsuariosDTO>>> GetAllAsync();
     }
 }
