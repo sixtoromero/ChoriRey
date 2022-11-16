@@ -8,5 +8,6 @@ namespace ChoriRey.Domain.Interface
 {
     public interface IUsuariosDomain : IDomain<Usuarios>
     {
+        Task<Usuarios> GetLoginAsync(Usuarios model);
     }
 }

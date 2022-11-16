@@ -99,5 +99,21 @@ namespace ChoriRey.InfraStructure.Repository
                 return result;
             }
         }
+
+        public async Task<Usuarios> GetLoginAsync(Usuarios model)
+        {
+            using (var connection = _connectionFactory.GetConnection)
+            {
+                var query = "uspGetLogin";
+
+                var parameters = new DynamicParameters();
+
+                parameters.Add("Usuario", model.Usuario);
+                parameters.Add("Clave", model.Clave);
+
+                var result = await connection.QuerySingleAsync<Usuarios>(query, param: parameters, commandType: CommandType.StoredProcedure);
+                return result;
+            }
+        }
     }
 }

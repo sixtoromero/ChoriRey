@@ -46,5 +46,10 @@ namespace ChoriRey.Domain.Core
             return await _Repository.GetAllAsync();
         }
 
+        public async Task<Usuarios> GetLoginAsync(Usuarios model)
+        {
+            return await _Repository.GetLoginAsync(model);
+        }
+
     }
 }

@@ -13,5 +13,7 @@ namespace ChoriRey.Application.DTO
         public string Direccion { get; set; }
         public bool Estado { get; set; }
         public DateTime? Fecha_Creacion { get; set; }
+        public string Token { get; set; }
+
     }
 }

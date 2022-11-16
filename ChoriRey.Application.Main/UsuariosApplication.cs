@@ -133,5 +133,29 @@ namespace ChoriRey.Application.Main
 
             return response;
         }
+
+        public async Task<Response<UsuariosDTO>> GetLoginAsync(UsuariosDTO model)
+        {
+            var response = new Response<UsuariosDTO>();
+            try
+            {
+                var iUser = _mapper.Map<Usuarios>(model);
+                var resp = await _Domain.GetLoginAsync(iUser);
+                response.Data = _mapper.Map<UsuariosDTO>(resp);
+
+                if (response.Data != null)
+                {
+                    response.IsSuccess = true;
+                    response.Message = string.Empty;
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.Message;
+            }
+
+            return response;
+        }
+
     }
 }

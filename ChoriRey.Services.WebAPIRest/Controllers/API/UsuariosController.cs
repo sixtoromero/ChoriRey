@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ChoriRey.Application.DTO;
 using ChoriRey.Application.Interface;
+using ChoriRey.Application.Main;
 using ChoriRey.Services.WebAPIRest.Helpers;
 using ChoriRey.Transversal.Common;
 using ChoriRey.Transversal.Utils;
@@ -18,7 +19,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace ChoriRey.Services.WebAPIRest.Controllers.API
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class UsuariosController : Controller
@@ -172,6 +173,44 @@ namespace ChoriRey.Services.WebAPIRest.Controllers.API
 
                 return BadRequest(response);
             }
+        }
+
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> GetLoginAsync([FromBody] UsuariosDTO userDto)
+        {
+            var response = await _Application.GetLoginAsync(userDto);
+
+            if (response.IsSuccess)
+            {
+                response.Data.Token = BuildToken(response);
+                return Ok(response);
+            }
+
+            return BadRequest(response.Message);
+        }
+
+        private string BuildToken(Response<UsuariosDTO> usersDto)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new Claim[]
+                {
+                    new Claim(ClaimTypes.Name, usersDto.Data.Nombres)
+                }),
+
+                //Expires = DateTime.UtcNow.AddMinutes(1),
+                Expires = DateTime.UtcNow.AddHours(24),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
+                Issuer = _appSettings.IsSuer,
+                Audience = _appSettings.Audience
+
+            };
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            var tokenString = tokenHandler.WriteToken(token);
+            return tokenString;
         }
 
     }

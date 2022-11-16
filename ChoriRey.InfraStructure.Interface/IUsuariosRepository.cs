@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace ChoriRey.InfraStructure.Interface
 {
     public interface IUsuariosRepository : IRepository<Usuarios>
-    {        
+    {
+        Task<Usuarios> GetLoginAsync(Usuarios model);
     }
 }
