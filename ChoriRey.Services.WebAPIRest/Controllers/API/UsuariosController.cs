@@ -198,7 +198,7 @@ namespace ChoriRey.Services.WebAPIRest.Controllers.API
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Name, usersDto.Data.Nombres)
+                    new Claim(ClaimTypes.Name, usersDto.Data.IdUsuario.ToString())
                 }),
 
                 //Expires = DateTime.UtcNow.AddMinutes(1),
